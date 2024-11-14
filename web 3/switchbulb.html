@@ -1,0 +1,31 @@
+<html>
+<head><title>Light Bulb Switch</title>
+    <script>function turnOn() {
+    document.getElementById('bulb').src = 'switchbulb1.jpg';
+	} 
+
+    function turnOff() {
+    document.getElementById('bulb').src = 'switchbulb.jpg';
+	}
+    </script>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+        }
+        img {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Light Bulb Switch</h1>
+    <img id="bulb" src="switchbulb2.jpg" alt="Light Bulb">
+    <br>
+    <button onclick="turnOn()">Turn On</button>
+    <button onclick="turnOff()">Turn Off</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
